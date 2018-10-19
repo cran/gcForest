@@ -1,0 +1,24 @@
+Package: gcForest
+Type: Package
+Title: Deep Forest Model
+Version: 0.2.7
+Author: Xu Jing [cre]
+Maintainer: Xu Jing <274762204@qq.com>
+Description: R application programming interface (API) for Deep Forest which based on Zhou and Feng (2017). 
+             Deep Forest: Towards an Alternative to Deep Neural Networks. (<arXiv:1702.08835v2>) or Zhou and Feng (2017). 
+             Deep Forest. (<arXiv:1702.08835>). And for the Python module 'gcForest' (<https://github.com/pylablanche/gcForest>).
+License: GPL (>= 2)
+SystemRequirements: Python (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/DataXujing/gcForest_r
+BugReports: https://github.com/DataXujing/gcForest_r/issues
+RoxygenNote: 6.0.1
+Depends: R (>= 3.4.0)
+Imports: reticulate,pkgdown,crayon,cli,utils
+Suggests: rmarkdown, knitr
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2018-10-05 05:08:14 UTC; xujing
+Repository: CRAN
+Date/Publication: 2018-10-19 14:00:03 UTC
